@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+
+.player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+  box-shadow: -2px 2px 15px -5px rgb(0 0 0 / 50%);
+  transition: all 0.3s ease-out;
+}
+
+.player.own {
+  background-color: blue;
+}
